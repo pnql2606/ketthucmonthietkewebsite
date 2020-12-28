@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Magic.master.cs" Inherits="Quanlycanbo.Magic" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+
+
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="Scripts/magic.js"></script>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/magic.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar-menu navbar-expand-md">
+                  <a href="#" class="logo-index" title="Thanh Niên Online"></a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="Default.aspx">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="Tintuc.aspx">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="Tacgia.aspx">Tác giả</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-white" href="Chude.aspx">Chủ đề</a>
+                    </li>
+                </ul>
+            </div>
+          
+        </nav>
+                 
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <footer class="site-footer">
+                <div class="l-grid">
+
+                    <ul class="site-footer__catelist">
+<li>
+<a href="#" title="Thời sự" class="heading"><b>Tin 24h</b></a>
+<a href="#" title="Tin nhanh 360°" class="heading"><b>Tin nhanh 360°</b></a>
+<a href="#" title="Tin thị trường" class="heading"><b>Tin thị trường</b></a>
+<a href="#" title="Dành cho bạn" class="heading"><b>Dành cho bạn</b></a>
+<a href="#" title="Video" class="heading"><b>Video</b></a>
+</li>
+<li>
+<a href="#" title="Thời sự" class="heading"><b>Thời sự</b></a>
+<a href="#" title="Thế giới" class="heading"><b>Thế giới</b></a>
+<a href="#" title="Tài chính - Kinh doanh" class="heading"><b>Tài chính - Kinh doanh</b></a>
+<a href="#" title="Đời sống" class="heading"><b>Đời sống</b></a>
+<a href="#" title="Văn hóa" class="heading inlinetext"><b>Văn hóa</b></a>
+</li>
+<li>
+<a href="https://thanhnien.vn/game/" title="Game" class="heading"><b>Game</b></a>
+<a href="https://thanhnien.vn/xe/" title="Xe" class="heading"><b>Xe</b></a>
+<a href="https://vieclam.thanhnien.vn/" title="Việc làm" class="heading"><b>Việc làm</b></a>
+<a href="https://thanhnien.vn/thong-tin-khuyen-mai/" title="Thông tin khuyến mãi" class="heading"><b>Thông tin khuyến mãi</b></a>
+<a href="https://thanhnien.vn/ban-can-biet/" title="Bạn cần biết" class="heading"><b>Bạn cần biết</b></a>
+</li>
+<li>
+<p class="heading hotline">Hot line<br><span>0906 645 777</span></p>
+<p class="heading hotline">Liên hệ quảng cáo<br><span>0908 780 404</span></p>
+<p class="heading footer-follow">
+<a class="follow-icon fb" href="https://www.facebook.com/thanhnien" target="_blank" rel="nofollow">Facebook</a>
+<a class="follow-icon zl" href="https://zalo.me/2431025964363015388" target="_blank" rel="nofollow">Zalo</a>
+<a class="follow-icon yt" href="https://www.youtube.com/channel/UCIW9cGgoRuGJnky3K3tbzNg" target="_blank" rel="nofollow">Youtube</a>
+</p>
+</li>
+</ul>
+
+<div class="site-footer__info">
+<div class="left">
+<a href="#" class="logo">Thanh Niên Online</a>
+<strong>Giấy phép xuất bản số 110/GP - BTTTT cấp ngày 24.3.2020</strong> 
+    <br>
+© 2003-2020 Bản quyền thuộc về Báo Thanh Niên. Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản. <br>
+Phát triển bởi ePi Technologies, JSC.
+</div>
+<div class="right">
+<nav class="site-footer__tool">
+<a href="https://datbao.thanhnien.vn" target="_blank">Đặt báo</a>
+<a href="https://quangcao.thanhnien.vn/">Quảng cáo</a>
+<a href="/rss.html">RSS</a>
+<a href="/toa-soan.html">Thông tin tòa soạn</a>
+</nav>
+Tổng biên tập: <strong>Nguyễn Quang Thông</strong> <br>
+Phó tổng biên tập thường trực: <strong>Nguyễn Ngọc Toàn</strong> <br>
+Phó tổng biên tập: <strong>Hải Thành</strong> <br>
+Phó tổng biên tập: <strong>Đặng Thị Phương Thảo</strong> <br>
+Ủy viên Ban biên tập - Tổng Thư ký tòa soạn: <strong>Trần Việt Hưng</strong>
+</div>
+</div>
+</div>
+</footer>
+
+
+    </form>
+</body>
+</html>
